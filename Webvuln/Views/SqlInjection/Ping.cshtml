@@ -1,0 +1,21 @@
+@{
+    ViewData["Title"] = "Command Injection Demo";
+}
+
+<h2>Ping Tool (Command Injection Demo)</h2>
+
+<form method="get" action="/CommandInjection/Ping">
+    <div class="form-group">
+        <label for="ipAddress">IP Address:</label>
+        <input type="text" class="form-control" id="ipAddress" name="ipAddress" value="8.8.8.8">
+    </div>
+    <button type="submit" class="btn btn-primary">Ping</button>
+</form>
+
+@if (ViewBag.PingResult != null)
+{
+    <h3>Ping Results:</h3>
+    <pre>@ViewBag.PingResult</pre>
+}
+
+<p>Try: 8.8.8.8 &amp;&amp; dir</p>

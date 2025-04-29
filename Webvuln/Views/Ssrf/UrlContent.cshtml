@@ -1,0 +1,85 @@
+﻿@{
+    ViewData["Title"] = "SSRF URL Fetcher";
+}
+
+<div class="container mt-4">
+    <h2><i class="fas fa-link"></i> SSRF Demonstration</h2>
+
+    <!-- Vulnerable URL fetcher form -->
+    <form method="get" action="/Ssrf/FetchUrl" class="mb-4">
+        <div class="input-group">
+            <input type="text" class="form-control" name="url"
+                   placeholder="http://example.com"
+                   value="@Context.Request.Query["url"]">
+            <button type="submit" class="btn btn-danger">Fetch URL</button>
+        </div>
+    </form>
+
+    @if (ViewBag.Content != null)
+    {
+        <div class="alert alert-warning">
+            <h5>Content from URL:</h5>
+            <div class="p-3 bg-light border rounded" style="max-height: 300px; overflow: auto;">
+                <pre>@ViewBag.Content</pre>
+            </div>
+        </div>
+    }
+
+    <!-- SSRF Test Cases -->
+    <div class="card mt-4">
+        <div class="card-header bg-danger text-white">
+            <i class="fas fa-flask"></i> SSRF Test Payloads
+        </div>
+        <div class="card-body">
+            <ul class="list-group">
+                <li class="list-group-item">
+                    <strong>Localhost Access:</strong>
+                    <code>http://localhost/admin</code>
+                </li>
+                <li class="list-group-item">
+                    <strong>Metadata Endpoint (AWS/Azure):</strong>
+                    <code>http://169.254.169.254/latest/meta-data/</code>
+                </li>
+                <li class="list-group-item">
+                    <strong>Internal Service:</strong>
+                    <code>http://internal-payroll/api/salaries</code>
+                </li>
+                <li class="list-group-item">
+                    <strong>File Protocol:</strong>
+                    <code>file:///etc/passwd</code>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- Security Recommendations -->
+    <div class="alert alert-info mt-4">
+        <h5><i class="fas fa-shield-alt"></i> SSRF Protection</h5>
+        <ol>
+            <li>Validate and sanitize all URL inputs</li>
+            <li>Use allowlists of permitted domains</li>
+            <li>Block requests to internal IPs and metadata services</li>
+            <li>Disable protocol handlers like <code>file://</code>, <code>gopher://</code></li>
+            <li>Use network-level protections (firewalls, service mesh)</li>
+        </ol>
+    </div>
+</div>
+
+@section Styles {
+    <style>
+        pre {
+            white-space: pre-wrap;
+            word-wrap: break-word;
+            background: #f8f9fa;
+            padding: 10px;
+            border-radius: 5px;
+        }
+
+        .list-group-item code {
+            background: #f8d7da;
+            padding: 2px 5px;
+            border-radius: 3px;
+            color: #721c24;
+        }
+    </style>
+}

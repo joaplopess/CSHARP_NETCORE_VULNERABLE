@@ -1,0 +1,93 @@
+is_global = true
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = Webvuln
+build_property.RootNamespace = Webvuln
+build_property.ProjectDir = C:\Users\joapl\source\repos\Webvuln\Webvuln\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 8.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\joapl\source\repos\Webvuln\Webvuln
+build_property._RazorSourceGeneratorDebug = 
+build_property.EffectiveAnalysisLevelStyle = 8.0
+build_property.EnableCodeStyleSeverity = 
+
+[C:/Users/joapl/source/repos/Webvuln/Webvuln/Views/CommandInjection/PingResult.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tbWFuZEluamVjdGlvblxQaW5nUmVzdWx0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/joapl/source/repos/Webvuln/Webvuln/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/joapl/source/repos/Webvuln/Webvuln/Views/PathTraversal/Download.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGF0aFRyYXZlcnNhbFxEb3dubG9hZC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/joapl/source/repos/Webvuln/Webvuln/Views/PathTraversal/FileViewer.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGF0aFRyYXZlcnNhbFxGaWxlVmlld2VyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/joapl/source/repos/Webvuln/Webvuln/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/joapl/source/repos/Webvuln/Webvuln/Views/SqlInjection/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3FsSW5qZWN0aW9uXExvZ2luLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/joapl/source/repos/Webvuln/Webvuln/Views/SqlInjection/LoginFailed.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3FsSW5qZWN0aW9uXExvZ2luRmFpbGVkLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/joapl/source/repos/Webvuln/Webvuln/Views/SqlInjection/LoginSuccess.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3FsSW5qZWN0aW9uXExvZ2luU3VjY2Vzcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/joapl/source/repos/Webvuln/Webvuln/Views/SqlInjection/Ping.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3FsSW5qZWN0aW9uXFBpbmcuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/joapl/source/repos/Webvuln/Webvuln/Views/SqlInjection/Search.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3FsSW5qZWN0aW9uXFNlYXJjaC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/joapl/source/repos/Webvuln/Webvuln/Views/SqlInjection/SearchResults.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3FsSW5qZWN0aW9uXFNlYXJjaFJlc3VsdHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/joapl/source/repos/Webvuln/Webvuln/Views/Ssrf/FetchUrl.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3NyZlxGZXRjaFVybC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/joapl/source/repos/Webvuln/Webvuln/Views/Ssrf/UrlContent.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3NyZlxVcmxDb250ZW50LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/joapl/source/repos/Webvuln/Webvuln/Views/Xss/Comment.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcWHNzXENvbW1lbnQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/joapl/source/repos/Webvuln/Webvuln/Views/Xss/CommentPage.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcWHNzXENvbW1lbnRQYWdlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/joapl/source/repos/Webvuln/Webvuln/Views/Xss/ProfilePage.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcWHNzXFByb2ZpbGVQYWdlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/joapl/source/repos/Webvuln/Webvuln/Views/Xss/Search.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcWHNzXFNlYXJjaC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/joapl/source/repos/Webvuln/Webvuln/Views/Xss/SearchPage.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcWHNzXFNlYXJjaFBhZ2UuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 

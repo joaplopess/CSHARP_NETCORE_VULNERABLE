@@ -1,0 +1,45 @@
+﻿@model List<string>
+@{
+    ViewData["Title"] = "Search Results";
+}
+
+<div class="container mt-4">
+    <h2>Search Results</h2>
+    
+    <!-- Vulnerable search form (for demo purposes) -->
+    <form method="get" action="/SqlInjection/Search" class="mb-4">
+        <div class="input-group">
+            <input type="text" name="term" class="form-control" placeholder="Search products..." value="@Context.Request.Query["term"]">
+            <button type="submit" class="btn btn-danger">Search</button>
+        </div>
+    </form>
+
+    <!-- Results display -->
+    @if (Model != null && Model.Any())
+    {
+        <div class="alert alert-warning">
+            <h5>Vulnerable Results:</h5>
+            <ul>
+                @foreach (var item in Model)
+                {
+                    <li>@item</li>
+                }
+            </ul>
+        </div>
+
+        <!-- SQL Injection demonstration tip -->
+        <div class="card bg-light mt-3">
+            <div class="card-body">
+                <h5 class="card-title">Try this SQL Injection payload:</h5>
+                <code class="d-block mb-2">' UNION SELECT username, password FROM Users --</code>
+                <p class="text-muted">This may reveal all user credentials in the database</p>
+            </div>
+        </div>
+    }
+    else
+    {
+        <div class="alert alert-info">
+            No results found for your search.
+        </div>
+    }
+</div>

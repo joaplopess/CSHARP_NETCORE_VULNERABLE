@@ -1,0 +1,18 @@
+﻿@{
+    ViewData["Title"] = "Login Failed";
+}
+
+<div class="container mt-5">
+    <div class="alert alert-danger">
+        <h2>Login Failed</h2>
+        <p>Invalid username or password.</p>
+
+        <!-- SQL Injection hint for educational purposes -->
+        <div class="mt-3 bg-light p-3">
+            <h5>SQL Injection Test Hint:</h5>
+            <p>Try: <code>' OR '1'='1' --</code> as username (leave password empty)</p>
+        </div>
+
+        <a href="/SqlInjection/Login" class="btn btn-primary mt-3">Try Again</a>
+    </div>
+</div>

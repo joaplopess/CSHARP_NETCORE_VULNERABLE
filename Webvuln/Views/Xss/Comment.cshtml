@@ -1,0 +1,23 @@
+@{
+    ViewData["Title"] = "XSS Comment Demo";
+}
+
+<h2>Leave a Comment (Stored XSS)</h2>
+
+<form method="post" action="/Xss/Comment">
+    <div class="form-group">
+        <label for="commentText">Your Comment:</label>
+        <textarea class="form-control" id="commentText" name="commentText" rows="3"></textarea>
+    </div>
+    <button type="submit" class="btn btn-primary">Submit</button>
+</form>
+
+@if (ViewBag.Comment != null)
+{
+    <h3>Your Comment:</h3>
+    <div>
+        @Html.Raw(ViewBag.Comment)
+    </div>
+}
+
+<p>Try: &lt;script&gt;alert('XSS')&lt;/script&gt;</p>

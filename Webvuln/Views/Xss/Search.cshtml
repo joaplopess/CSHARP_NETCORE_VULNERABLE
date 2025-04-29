@@ -1,0 +1,70 @@
+@{
+    ViewData["Title"] = "XSS Search Demo";
+}
+
+<div class="container mt-4">
+    <h2><i class="fas fa-search"></i> XSS Search Demonstration</h2>
+
+    <!-- Vulnerable search form -->
+    <form method="get" action="/Xss/Search" class="mb-4">
+        <div class="input-group">
+            <input type="text" name="query" class="form-control" placeholder="Try XSS payload..." value="@Html.Raw(ViewBag.SearchQuery)">
+            <button type="submit" class="btn btn-danger">Search</button>
+        </div>
+    </form>
+
+    <!-- Results section (intentionally vulnerable) -->
+    @if (ViewBag.SearchQuery != null)
+    {
+        <div class="alert alert-warning">
+            <h5>Rendered Output (Vulnerable):</h5>
+            <div class="p-3 mb-3 bg-light">
+                @Html.Raw(ViewBag.SearchQuery)
+            </div>
+
+            <h5>Encoded Output (Safe):</h5>
+            <div class="p-3 bg-light">
+                @ViewBag.SearchQuery
+            </div>
+        </div>
+
+        <!-- XSS demonstration examples -->
+        <div class="card mt-4">
+            <div class="card-header bg-danger text-white">
+                <i class="fas fa-bug"></i> XSS Test Payloads
+            </div>
+            <div class="card-body">
+                <ul class="list-group">
+                    <li class="list-group-item">
+                        <code>&lt;script&gt;alert(1)&lt;/script&gt;</code>
+                    </li>
+                    <li class="list-group-item">
+                        <code>&lt;img src=x onerror=alert(1)&gt;</code>
+                    </li>
+                    <li class="list-group-item">
+                        <code>&lt;svg onload=alert(1)&gt;&lt;/svg&gt;</code>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    }
+
+    <!-- Security explanation -->
+    <div class="alert alert-info mt-4">
+        <h5><i class="fas fa-shield-alt"></i> Security Note</h5>
+        <p>The top output shows raw, unencoded output (vulnerable to XSS).</p>
+        <p>The bottom output shows properly encoded output (safe).</p>
+        <p>Always use <code>@@ViewBag.Property</code> (auto-encoded) instead of <code>@@Html.Raw()</code> in production.</p>
+    </div>
+</div>
+
+@section Styles {
+    <style>
+        .list-group-item code {
+            background: #f8d7da;
+            padding: 2px 5px;
+            border-radius: 3px;
+            color: #721c24;
+        }
+    </style>
+}

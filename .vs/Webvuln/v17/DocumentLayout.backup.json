@@ -1,0 +1,437 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\joapl\\source\\repos\\Webvuln\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{EB7CAC5C-4DF8-4390-B44E-24894AECB6D7}|Webvuln\\Webvuln.csproj|c:\\users\\joapl\\source\\repos\\webvuln\\webvuln\\controllers\\xsscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB7CAC5C-4DF8-4390-B44E-24894AECB6D7}|Webvuln\\Webvuln.csproj|solutionrelative:webvuln\\controllers\\xsscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB7CAC5C-4DF8-4390-B44E-24894AECB6D7}|Webvuln\\Webvuln.csproj|c:\\users\\joapl\\source\\repos\\webvuln\\webvuln\\controllers\\ssrfcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB7CAC5C-4DF8-4390-B44E-24894AECB6D7}|Webvuln\\Webvuln.csproj|solutionrelative:webvuln\\controllers\\ssrfcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB7CAC5C-4DF8-4390-B44E-24894AECB6D7}|Webvuln\\Webvuln.csproj|c:\\users\\joapl\\source\\repos\\webvuln\\webvuln\\controllers\\commandinjectioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB7CAC5C-4DF8-4390-B44E-24894AECB6D7}|Webvuln\\Webvuln.csproj|solutionrelative:webvuln\\controllers\\commandinjectioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB7CAC5C-4DF8-4390-B44E-24894AECB6D7}|Webvuln\\Webvuln.csproj|c:\\users\\joapl\\source\\repos\\webvuln\\webvuln\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB7CAC5C-4DF8-4390-B44E-24894AECB6D7}|Webvuln\\Webvuln.csproj|solutionrelative:webvuln\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB7CAC5C-4DF8-4390-B44E-24894AECB6D7}|Webvuln\\Webvuln.csproj|c:\\users\\joapl\\source\\repos\\webvuln\\webvuln\\views\\commandinjection\\pingresult.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EB7CAC5C-4DF8-4390-B44E-24894AECB6D7}|Webvuln\\Webvuln.csproj|solutionrelative:webvuln\\views\\commandinjection\\pingresult.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB7CAC5C-4DF8-4390-B44E-24894AECB6D7}|Webvuln\\Webvuln.csproj|c:\\users\\joapl\\source\\repos\\webvuln\\webvuln\\views\\pathtraversal\\fileviewer.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EB7CAC5C-4DF8-4390-B44E-24894AECB6D7}|Webvuln\\Webvuln.csproj|solutionrelative:webvuln\\views\\pathtraversal\\fileviewer.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB7CAC5C-4DF8-4390-B44E-24894AECB6D7}|Webvuln\\Webvuln.csproj|c:\\users\\joapl\\source\\repos\\webvuln\\webvuln\\controllers\\pathtraversalcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB7CAC5C-4DF8-4390-B44E-24894AECB6D7}|Webvuln\\Webvuln.csproj|solutionrelative:webvuln\\controllers\\pathtraversalcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB7CAC5C-4DF8-4390-B44E-24894AECB6D7}|Webvuln\\Webvuln.csproj|c:\\users\\joapl\\source\\repos\\webvuln\\webvuln\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{EB7CAC5C-4DF8-4390-B44E-24894AECB6D7}|Webvuln\\Webvuln.csproj|solutionrelative:webvuln\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB7CAC5C-4DF8-4390-B44E-24894AECB6D7}|Webvuln\\Webvuln.csproj|c:\\users\\joapl\\source\\repos\\webvuln\\webvuln\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB7CAC5C-4DF8-4390-B44E-24894AECB6D7}|Webvuln\\Webvuln.csproj|solutionrelative:webvuln\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB7CAC5C-4DF8-4390-B44E-24894AECB6D7}|Webvuln\\Webvuln.csproj|c:\\users\\joapl\\source\\repos\\webvuln\\webvuln\\controllers\\sqlinjectioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB7CAC5C-4DF8-4390-B44E-24894AECB6D7}|Webvuln\\Webvuln.csproj|solutionrelative:webvuln\\controllers\\sqlinjectioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB7CAC5C-4DF8-4390-B44E-24894AECB6D7}|Webvuln\\Webvuln.csproj|c:\\users\\joapl\\source\\repos\\webvuln\\webvuln\\views\\models\\databasecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB7CAC5C-4DF8-4390-B44E-24894AECB6D7}|Webvuln\\Webvuln.csproj|solutionrelative:webvuln\\views\\models\\databasecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB7CAC5C-4DF8-4390-B44E-24894AECB6D7}|Webvuln\\Webvuln.csproj|c:\\users\\joapl\\source\\repos\\webvuln\\webvuln\\views\\xss\\search.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EB7CAC5C-4DF8-4390-B44E-24894AECB6D7}|Webvuln\\Webvuln.csproj|solutionrelative:webvuln\\views\\xss\\search.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB7CAC5C-4DF8-4390-B44E-24894AECB6D7}|Webvuln\\Webvuln.csproj|c:\\users\\joapl\\source\\repos\\webvuln\\webvuln\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{EB7CAC5C-4DF8-4390-B44E-24894AECB6D7}|Webvuln\\Webvuln.csproj|solutionrelative:webvuln\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB7CAC5C-4DF8-4390-B44E-24894AECB6D7}|Webvuln\\Webvuln.csproj|c:\\users\\joapl\\source\\repos\\webvuln\\webvuln\\views\\sqlinjection\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EB7CAC5C-4DF8-4390-B44E-24894AECB6D7}|Webvuln\\Webvuln.csproj|solutionrelative:webvuln\\views\\sqlinjection\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB7CAC5C-4DF8-4390-B44E-24894AECB6D7}|Webvuln\\Webvuln.csproj|c:\\users\\joapl\\source\\repos\\webvuln\\webvuln\\views\\ssrf\\urlcontent.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EB7CAC5C-4DF8-4390-B44E-24894AECB6D7}|Webvuln\\Webvuln.csproj|solutionrelative:webvuln\\views\\ssrf\\urlcontent.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB7CAC5C-4DF8-4390-B44E-24894AECB6D7}|Webvuln\\Webvuln.csproj|c:\\users\\joapl\\source\\repos\\webvuln\\webvuln\\views\\xss\\commentpage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EB7CAC5C-4DF8-4390-B44E-24894AECB6D7}|Webvuln\\Webvuln.csproj|solutionrelative:webvuln\\views\\xss\\commentpage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB7CAC5C-4DF8-4390-B44E-24894AECB6D7}|Webvuln\\Webvuln.csproj|c:\\users\\joapl\\source\\repos\\webvuln\\webvuln\\views\\xss\\searchpage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EB7CAC5C-4DF8-4390-B44E-24894AECB6D7}|Webvuln\\Webvuln.csproj|solutionrelative:webvuln\\views\\xss\\searchpage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB7CAC5C-4DF8-4390-B44E-24894AECB6D7}|Webvuln\\Webvuln.csproj|c:\\users\\joapl\\source\\repos\\webvuln\\webvuln\\views\\pathtraversal\\download.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EB7CAC5C-4DF8-4390-B44E-24894AECB6D7}|Webvuln\\Webvuln.csproj|solutionrelative:webvuln\\views\\pathtraversal\\download.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB7CAC5C-4DF8-4390-B44E-24894AECB6D7}|Webvuln\\Webvuln.csproj|c:\\users\\joapl\\source\\repos\\webvuln\\webvuln\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EB7CAC5C-4DF8-4390-B44E-24894AECB6D7}|Webvuln\\Webvuln.csproj|solutionrelative:webvuln\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB7CAC5C-4DF8-4390-B44E-24894AECB6D7}|Webvuln\\Webvuln.csproj|c:\\users\\joapl\\source\\repos\\webvuln\\webvuln\\views\\xss\\profilepage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EB7CAC5C-4DF8-4390-B44E-24894AECB6D7}|Webvuln\\Webvuln.csproj|solutionrelative:webvuln\\views\\xss\\profilepage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB7CAC5C-4DF8-4390-B44E-24894AECB6D7}|Webvuln\\Webvuln.csproj|c:\\users\\joapl\\source\\repos\\webvuln\\webvuln\\views\\sqlinjection\\search.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EB7CAC5C-4DF8-4390-B44E-24894AECB6D7}|Webvuln\\Webvuln.csproj|solutionrelative:webvuln\\views\\sqlinjection\\search.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB7CAC5C-4DF8-4390-B44E-24894AECB6D7}|Webvuln\\Webvuln.csproj|c:\\users\\joapl\\source\\repos\\webvuln\\webvuln\\views\\sqlinjection\\searchresults.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EB7CAC5C-4DF8-4390-B44E-24894AECB6D7}|Webvuln\\Webvuln.csproj|solutionrelative:webvuln\\views\\sqlinjection\\searchresults.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB7CAC5C-4DF8-4390-B44E-24894AECB6D7}|Webvuln\\Webvuln.csproj|c:\\users\\joapl\\source\\repos\\webvuln\\webvuln\\views\\sqlinjection\\loginsuccess.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EB7CAC5C-4DF8-4390-B44E-24894AECB6D7}|Webvuln\\Webvuln.csproj|solutionrelative:webvuln\\views\\sqlinjection\\loginsuccess.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB7CAC5C-4DF8-4390-B44E-24894AECB6D7}|Webvuln\\Webvuln.csproj|c:\\users\\joapl\\source\\repos\\webvuln\\webvuln\\views\\sqlinjection\\loginfailed.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EB7CAC5C-4DF8-4390-B44E-24894AECB6D7}|Webvuln\\Webvuln.csproj|solutionrelative:webvuln\\views\\sqlinjection\\loginfailed.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB7CAC5C-4DF8-4390-B44E-24894AECB6D7}|Webvuln\\Webvuln.csproj|c:\\users\\joapl\\source\\repos\\webvuln\\webvuln\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{EB7CAC5C-4DF8-4390-B44E-24894AECB6D7}|Webvuln\\Webvuln.csproj|solutionrelative:webvuln\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "FileViewer.cshtml",
+              "DocumentMoniker": "C:\\Users\\joapl\\source\\repos\\Webvuln\\Webvuln\\Views\\PathTraversal\\FileViewer.cshtml",
+              "RelativeDocumentMoniker": "Webvuln\\Views\\PathTraversal\\FileViewer.cshtml",
+              "ToolTip": "C:\\Users\\joapl\\source\\repos\\Webvuln\\Webvuln\\Views\\PathTraversal\\FileViewer.cshtml",
+              "RelativeToolTip": "Webvuln\\Views\\PathTraversal\\FileViewer.cshtml",
+              "ViewState": "AgIAADwAAAAAAAAAAAAwwFAAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-27T22:27:15.711Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\joapl\\source\\repos\\Webvuln\\Webvuln\\Program.cs",
+              "RelativeDocumentMoniker": "Webvuln\\Program.cs",
+              "ToolTip": "C:\\Users\\joapl\\source\\repos\\Webvuln\\Webvuln\\Program.cs",
+              "RelativeToolTip": "Webvuln\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAABQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-26T16:29:14.184Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "XssController.cs",
+              "DocumentMoniker": "C:\\Users\\joapl\\source\\repos\\Webvuln\\Webvuln\\Controllers\\XssController.cs",
+              "RelativeDocumentMoniker": "Webvuln\\Controllers\\XssController.cs",
+              "ToolTip": "C:\\Users\\joapl\\source\\repos\\Webvuln\\Webvuln\\Controllers\\XssController.cs",
+              "RelativeToolTip": "Webvuln\\Controllers\\XssController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-27T12:54:16.739Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CommandInjectionController.cs",
+              "DocumentMoniker": "C:\\Users\\joapl\\source\\repos\\Webvuln\\Webvuln\\Controllers\\CommandInjectionController.cs",
+              "RelativeDocumentMoniker": "Webvuln\\Controllers\\CommandInjectionController.cs",
+              "ToolTip": "C:\\Users\\joapl\\source\\repos\\Webvuln\\Webvuln\\Controllers\\CommandInjectionController.cs",
+              "RelativeToolTip": "Webvuln\\Controllers\\CommandInjectionController.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAQwBQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-27T12:59:56.463Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "PingResult.cshtml",
+              "DocumentMoniker": "C:\\Users\\joapl\\source\\repos\\Webvuln\\Webvuln\\Views\\CommandInjection\\PingResult.cshtml",
+              "RelativeDocumentMoniker": "Webvuln\\Views\\CommandInjection\\PingResult.cshtml",
+              "ToolTip": "C:\\Users\\joapl\\source\\repos\\Webvuln\\Webvuln\\Views\\CommandInjection\\PingResult.cshtml",
+              "RelativeToolTip": "Webvuln\\Views\\CommandInjection\\PingResult.cshtml",
+              "ViewState": "AgIAAEEAAAAAAAAAAAAwwEcAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-27T13:05:30.019Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "DatabaseContext.cs",
+              "DocumentMoniker": "C:\\Users\\joapl\\source\\repos\\Webvuln\\Webvuln\\Views\\Models\\DatabaseContext.cs",
+              "RelativeDocumentMoniker": "Webvuln\\Views\\Models\\DatabaseContext.cs",
+              "ToolTip": "C:\\Users\\joapl\\source\\repos\\Webvuln\\Webvuln\\Views\\Models\\DatabaseContext.cs",
+              "RelativeToolTip": "Webvuln\\Views\\Models\\DatabaseContext.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAgwDAAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-27T12:24:22.493Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "SqlInjectionController.cs",
+              "DocumentMoniker": "C:\\Users\\joapl\\source\\repos\\Webvuln\\Webvuln\\Controllers\\SqlInjectionController.cs",
+              "RelativeDocumentMoniker": "Webvuln\\Controllers\\SqlInjectionController.cs",
+              "ToolTip": "C:\\Users\\joapl\\source\\repos\\Webvuln\\Webvuln\\Controllers\\SqlInjectionController.cs",
+              "RelativeToolTip": "Webvuln\\Controllers\\SqlInjectionController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-27T12:43:07.959Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\joapl\\source\\repos\\Webvuln\\Webvuln\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "Webvuln\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\joapl\\source\\repos\\Webvuln\\Webvuln\\Properties\\launchSettings.json",
+              "RelativeToolTip": "Webvuln\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-04-26T16:31:05.173Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "SsrfController.cs",
+              "DocumentMoniker": "C:\\Users\\joapl\\source\\repos\\Webvuln\\Webvuln\\Controllers\\SsrfController.cs",
+              "RelativeDocumentMoniker": "Webvuln\\Controllers\\SsrfController.cs",
+              "ToolTip": "C:\\Users\\joapl\\source\\repos\\Webvuln\\Webvuln\\Controllers\\SsrfController.cs",
+              "RelativeToolTip": "Webvuln\\Controllers\\SsrfController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-27T21:47:22.377Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\joapl\\source\\repos\\Webvuln\\Webvuln\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Webvuln\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\joapl\\source\\repos\\Webvuln\\Webvuln\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Webvuln\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-27T12:19:15.787Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "PathTraversalController.cs",
+              "DocumentMoniker": "C:\\Users\\joapl\\source\\repos\\Webvuln\\Webvuln\\Controllers\\PathTraversalController.cs",
+              "RelativeDocumentMoniker": "Webvuln\\Controllers\\PathTraversalController.cs",
+              "ToolTip": "C:\\Users\\joapl\\source\\repos\\Webvuln\\Webvuln\\Controllers\\PathTraversalController.cs",
+              "RelativeToolTip": "Webvuln\\Controllers\\PathTraversalController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-27T13:08:00.715Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Search.cshtml",
+              "DocumentMoniker": "C:\\Users\\joapl\\source\\repos\\Webvuln\\Webvuln\\Views\\Xss\\Search.cshtml",
+              "RelativeDocumentMoniker": "Webvuln\\Views\\Xss\\Search.cshtml",
+              "ToolTip": "C:\\Users\\joapl\\source\\repos\\Webvuln\\Webvuln\\Views\\Xss\\Search.cshtml",
+              "RelativeToolTip": "Webvuln\\Views\\Xss\\Search.cshtml",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAAAwAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-27T12:55:41.617Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "C:\\Users\\joapl\\source\\repos\\Webvuln\\Webvuln\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "Webvuln\\appsettings.Development.json",
+              "ToolTip": "C:\\Users\\joapl\\source\\repos\\Webvuln\\Webvuln\\appsettings.Development.json",
+              "RelativeToolTip": "Webvuln\\appsettings.Development.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-04-27T22:15:42.015Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\joapl\\source\\repos\\Webvuln\\Webvuln\\Views\\SqlInjection\\Login.cshtml",
+              "RelativeDocumentMoniker": "Webvuln\\Views\\SqlInjection\\Login.cshtml",
+              "ToolTip": "C:\\Users\\joapl\\source\\repos\\Webvuln\\Webvuln\\Views\\SqlInjection\\Login.cshtml",
+              "RelativeToolTip": "Webvuln\\Views\\SqlInjection\\Login.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-27T12:44:52.978Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "UrlContent.cshtml",
+              "DocumentMoniker": "C:\\Users\\joapl\\source\\repos\\Webvuln\\Webvuln\\Views\\Ssrf\\UrlContent.cshtml",
+              "RelativeDocumentMoniker": "Webvuln\\Views\\Ssrf\\UrlContent.cshtml",
+              "ToolTip": "C:\\Users\\joapl\\source\\repos\\Webvuln\\Webvuln\\Views\\Ssrf\\UrlContent.cshtml",
+              "RelativeToolTip": "Webvuln\\Views\\Ssrf\\UrlContent.cshtml",
+              "ViewState": "AgIAACwAAAAAAAAAAAAcwD4AAABMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-27T22:12:08.478Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Search.cshtml",
+              "DocumentMoniker": "C:\\Users\\joapl\\source\\repos\\Webvuln\\Webvuln\\Views\\SqlInjection\\Search.cshtml",
+              "RelativeDocumentMoniker": "Webvuln\\Views\\SqlInjection\\Search.cshtml",
+              "ToolTip": "C:\\Users\\joapl\\source\\repos\\Webvuln\\Webvuln\\Views\\SqlInjection\\Search.cshtml",
+              "RelativeToolTip": "Webvuln\\Views\\SqlInjection\\Search.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-27T12:57:23.803Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "CommentPage.cshtml",
+              "DocumentMoniker": "C:\\Users\\joapl\\source\\repos\\Webvuln\\Webvuln\\Views\\Xss\\CommentPage.cshtml",
+              "RelativeDocumentMoniker": "Webvuln\\Views\\Xss\\CommentPage.cshtml",
+              "ToolTip": "C:\\Users\\joapl\\source\\repos\\Webvuln\\Webvuln\\Views\\Xss\\CommentPage.cshtml",
+              "RelativeToolTip": "Webvuln\\Views\\Xss\\CommentPage.cshtml",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA0AAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-27T13:01:27.317Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "SearchPage.cshtml",
+              "DocumentMoniker": "C:\\Users\\joapl\\source\\repos\\Webvuln\\Webvuln\\Views\\Xss\\SearchPage.cshtml",
+              "RelativeDocumentMoniker": "Webvuln\\Views\\Xss\\SearchPage.cshtml",
+              "ToolTip": "C:\\Users\\joapl\\source\\repos\\Webvuln\\Webvuln\\Views\\Xss\\SearchPage.cshtml",
+              "RelativeToolTip": "Webvuln\\Views\\Xss\\SearchPage.cshtml",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABoAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-27T12:58:32.435Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Download.cshtml",
+              "DocumentMoniker": "C:\\Users\\joapl\\source\\repos\\Webvuln\\Webvuln\\Views\\PathTraversal\\Download.cshtml",
+              "RelativeDocumentMoniker": "Webvuln\\Views\\PathTraversal\\Download.cshtml",
+              "ToolTip": "C:\\Users\\joapl\\source\\repos\\Webvuln\\Webvuln\\Views\\PathTraversal\\Download.cshtml",
+              "RelativeToolTip": "Webvuln\\Views\\PathTraversal\\Download.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-27T13:08:08.831Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "ProfilePage.cshtml",
+              "DocumentMoniker": "C:\\Users\\joapl\\source\\repos\\Webvuln\\Webvuln\\Views\\Xss\\ProfilePage.cshtml",
+              "RelativeDocumentMoniker": "Webvuln\\Views\\Xss\\ProfilePage.cshtml",
+              "ToolTip": "C:\\Users\\joapl\\source\\repos\\Webvuln\\Webvuln\\Views\\Xss\\ProfilePage.cshtml",
+              "RelativeToolTip": "Webvuln\\Views\\Xss\\ProfilePage.cshtml",
+              "ViewState": "AgIAACIAAAAAAAAAAAAwwCoAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-27T13:01:55.71Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\joapl\\source\\repos\\Webvuln\\Webvuln\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Webvuln\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\joapl\\source\\repos\\Webvuln\\Webvuln\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Webvuln\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-27T12:17:26.88Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "LoginSuccess.cshtml",
+              "DocumentMoniker": "C:\\Users\\joapl\\source\\repos\\Webvuln\\Webvuln\\Views\\SqlInjection\\LoginSuccess.cshtml",
+              "RelativeDocumentMoniker": "Webvuln\\Views\\SqlInjection\\LoginSuccess.cshtml",
+              "ToolTip": "C:\\Users\\joapl\\source\\repos\\Webvuln\\Webvuln\\Views\\SqlInjection\\LoginSuccess.cshtml",
+              "RelativeToolTip": "Webvuln\\Views\\SqlInjection\\LoginSuccess.cshtml",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAwwBcAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-27T12:52:49.242Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "SearchResults.cshtml",
+              "DocumentMoniker": "C:\\Users\\joapl\\source\\repos\\Webvuln\\Webvuln\\Views\\SqlInjection\\SearchResults.cshtml",
+              "RelativeDocumentMoniker": "Webvuln\\Views\\SqlInjection\\SearchResults.cshtml",
+              "ToolTip": "C:\\Users\\joapl\\source\\repos\\Webvuln\\Webvuln\\Views\\SqlInjection\\SearchResults.cshtml",
+              "RelativeToolTip": "Webvuln\\Views\\SqlInjection\\SearchResults.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-27T12:47:36.946Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "LoginFailed.cshtml",
+              "DocumentMoniker": "C:\\Users\\joapl\\source\\repos\\Webvuln\\Webvuln\\Views\\SqlInjection\\LoginFailed.cshtml",
+              "RelativeDocumentMoniker": "Webvuln\\Views\\SqlInjection\\LoginFailed.cshtml",
+              "ToolTip": "C:\\Users\\joapl\\source\\repos\\Webvuln\\Webvuln\\Views\\SqlInjection\\LoginFailed.cshtml",
+              "RelativeToolTip": "Webvuln\\Views\\SqlInjection\\LoginFailed.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-27T12:42:43.467Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\joapl\\source\\repos\\Webvuln\\Webvuln\\appsettings.json",
+              "RelativeDocumentMoniker": "Webvuln\\appsettings.json",
+              "ToolTip": "C:\\Users\\joapl\\source\\repos\\Webvuln\\Webvuln\\appsettings.json",
+              "RelativeToolTip": "Webvuln\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-04-26T16:27:50.991Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
